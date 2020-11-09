@@ -1,0 +1,177 @@
+*{
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navcontainer{
+height: 100px;
+width: 100%;
+background: #06132B;
+box-shadow: 0px 8px 24px rgba(0,0,0,0.2);
+}
+.wrapper{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  color: white;
+  font-size: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  text-decoration: none;
+
+}
+.logo:hover{
+  color: #EB5B24;
+  font-size: 45px;
+}
+
+.hero-image{
+height: 236px;
+width: 236px;
+margin-left: 117px;
+margin-top: 100px;
+margin-right: 50px;
+}
+
+
+ul{
+color:white;
+margin-left: 5px;
+float:right;
+}
+
+ul li{
+color:white;
+list-style: none;
+display: inline-block;
+float:left;
+line-height: 100px;
+}
+
+ul li a{
+text-decoration: none;
+color:white;
+font-size: 20px;
+font-family: 'Montserrat', sans-serif;
+padding:  0 30px;
+}
+
+ul li a:hover{
+color: #EB5B24
+}
+
+body{
+  background-color: #EB5B24;
+}
+
+.header-container{
+  background-position: right;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header p{
+  font-size: 20px;
+  color:white;
+  width: 700px;
+  padding-top: 90px;
+  font-family: 'Montserrat';
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 45px;
+}
+
+.social-icons a{
+  margin: 0 24px;
+}
+ .circles{
+   float: right;
+  margin-top: -120px;
+}
+
+#college{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+}
+
+#school12{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+}
+
+#school10{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+}
+
+#quote{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 20px;
+  margin: 50px;
+}
+
+#info{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+  text-decoration: underline;
+}
+
+#int1{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+}
+
+#int2{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+}
+
+#int3{
+  color:white;
+  font-family: 'Montserrat';
+  font-size: 25px;
+  margin: 50px;
+}
+
+.interestcircles{
+  margin-left:50px;
+}
+
+
+.bro{
+  height: 400px;
+  width:500px;
+  float:right;
+  margin-top: -450px;
+  margin-right: 100px;
+}
